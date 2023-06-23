@@ -1,0 +1,59 @@
+.cell {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+}
+
+.cell img {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+   
+}
+
+#reset {
+    display: none;
+}
+
+
+section {
+    display: grid;
+    place-content: center;
+    height: 95vh;
+}
+
+#reset {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border: none;
+    background: none;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./image/dota-2-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    margin:  0;
+}
